@@ -1,0 +1,12 @@
+.post-media {
+  display: inline;
+}
+
+.post-media .side-by-side {
+  display: inline;
+  width: 49.5%;
+}
+
+.post-media .side-by-side:first-of-type {
+  margin-right: 1%;
+}

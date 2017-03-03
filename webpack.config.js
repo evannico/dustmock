@@ -28,6 +28,8 @@ module.exports = {
       Nav: 'app/components/Nav.jsx',
       Profile: 'app/components/Profile.jsx',
       Post: 'app/components/Post.jsx',
+      MediaPost2: 'app/components/MediaPost2.jsx',
+      LinkPost: 'app/components/LinkPost.jsx',
       applicationStyle: 'app/styles/app.scss'
     },
     extensions: ['', '.js', '.jsx']

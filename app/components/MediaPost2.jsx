@@ -1,6 +1,6 @@
 var React = require('react');
 
-var Post = (props) => {
+var MediaPost2 = (props) => {
   return (
     <div className="post">
       <img className="post-profile" src={props.postProfile}></img>
@@ -13,6 +13,11 @@ var Post = (props) => {
 
       <div className="post-body-container">
         <p className="post-body">{props.postBody}</p>
+      </div>
+
+      <div className="post-media">
+        <img className="side-by-side" src="https://s5.postimg.org/71y72f9af/mediaimage2.png"></img>
+        <img className="side-by-side" src="https://s5.postimg.org/vjuw4218n/mediaimage1.png"></img>
       </div>
 
       <div className="post-buttons">
@@ -32,4 +37,4 @@ var Post = (props) => {
   )
 };
 
-module.exports = Post;
+module.exports = MediaPost2;
