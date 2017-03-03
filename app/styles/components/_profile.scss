@@ -1,0 +1,94 @@
+//Profile CSS
+.profile {
+  border: 0.5px solid black;
+  width: 305px;
+  height: 382px;
+  margin-top: 24px;
+  margin-left: 28px;
+  background-color: white;
+}
+.profile .background {
+  width: 315px;
+}
+
+.profile .profile-picture {
+  width: 90px;
+  margin-top: -42px;
+  margin-left: 10px;
+}
+
+.user-text {
+  margin-top: -48px;
+}
+
+.profile .display-name {
+  display: inline;
+  font-weight: 700;
+  font-size: 17px;
+  padding-right: 8px;
+}
+
+.profile .verified {
+  display: inline;
+  width: 24px;
+  padding-right: 8px;
+}
+
+.profile .username {
+  display: inline;
+  font-size: 14px;
+}
+
+.profile .right-profile {
+  margin-left: 112px;
+}
+
+.profile .location-icon, .profile .location-text {
+  display: inline;
+}
+
+.profile .location-icon {
+  height: 15px;
+  margin-right: 11px;
+}
+
+.profile .location-text {
+  font-size: 15px;
+}
+.profile .location {
+  margin-left: 112px;
+}
+
+.profile .bio {
+  width: 290px;
+  margin: 0 auto;
+  margin-top: 19px;
+}
+
+.profile .bio-url {
+  text-align: center;
+  color: #6CA6CB;
+  font-size: 15px;
+}
+
+.stats {
+  margin: 10px auto;
+  width: 80%;
+}
+
+.stats div {
+  display: inline;
+}
+
+
+.stats .number {
+  font-size: 17px;
+  font-weight: 700;
+  padding-right: 5px;
+}
+
+.stats .stats-label {
+  font-size: 17px;
+  font-weight: lighter;
+  padding-right: 50px;
+}
