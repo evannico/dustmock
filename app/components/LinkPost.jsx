@@ -14,12 +14,13 @@ var LinkPost = (props) => {
       <div className="post-body-container">
         <p className="post-body">{props.postBody}</p>
       </div>
-
-      <div className="link-preview">
-        <img className="link-image" src={props.linkImage}></img>
-        <p className="link-title">{props.linkTitle}</p>
-        <p className="link-URL">{props.linkURL}</p>
-      </div>
+      <a href="http://www.starwars.com/" target="_blank">
+        <div className="link-preview">
+          <img className="link-image" src={props.linkImage}></img>
+          <p className="link-title">{props.linkTitle}</p>
+          <p className="link-URL">{props.linkURL}</p>
+        </div>
+      </a>
 
       <div className="post-buttons">
         <img src="https://s5.postimg.org/inudgk3bb/reply_copy_3x.png" className="post-comment"></img>
