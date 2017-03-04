@@ -2,6 +2,13 @@ input[type=search] {
   box-shadow: none;
 }
 
+.top-bar.nav-bar {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+}
+
 .nav-bar {
   border-bottom: 1px solid black;
   background-color: white;

@@ -6,7 +6,9 @@ var Profile = require('Profile');
 var Main = (props) => {
   return (
     <div className="">
-      <Nav />
+      <div>
+        <Nav />
+      </div>
       <div className="main-container row">
         <div className="profile-container large-4 columns">
           <Profile
